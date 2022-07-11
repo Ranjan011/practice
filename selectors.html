@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS SELECTORS</title>
+    <link rel="stylesheet" href="selectors.css" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <figure>
+        <img src="https://images.unsplash.com/photo-1657393799953-569abfa59c47?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" style="width:100px;height:100px;" alt="">
+      </figure>
+      <section>
+        <h2>CSS SELECTORS</h2>
+        <p class="p1 p2">hello we are doing html and css</p>
+        <p class="p1">hello we are doing html and css</p>
+        <p class="p1p2">hello we are doing html and css</p>
+        <p class="p1-p2">hello we are doing html and css</p>
+      </section>
+
+      <section>
+        <h1>Attribute presence and value selectors</h1>
+        <ul>
+          <li>Item 1</li>
+          <li class="a">Item 2</li>
+          <li class="a b">Item 3</li>
+          <li class="ab">Item 4</li>
+          <!--
+            1.^ means start with anything
+            2/$ means end with 
+            3.* means anywhere in the lst of values
+            4.| means only specified value or separated with hyphen
+            5.~ means values specified or whitespace separation
+            6. values == only specified values
+            If you want to match attribute values case-insensitively you can use the value i before the closing bracket.
+            i.e;
+            li[class^="a" i]
+          -->
+        </ul>
+      </section>
+
+      <article>
+        <p>
+          Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh
+          onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.
+        </p>
+
+        <!-- <p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard
+                greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p> -->
+
+        <p class="box">Content in the box in my HTML page.</p>
+      </article>
+    </main>
+  </body>
+</html>

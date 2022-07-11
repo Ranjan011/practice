@@ -1,0 +1,80 @@
+/* section :last-child {
+    color:dodgerblue;
+}
+/* li[class] {
+    font-size: 200%;
+}
+
+li[class="a"] {
+    background-color: yellow;
+}
+
+li[class~="a"] {
+    color: red;
+}
+  
+p[class] {
+    color:green;
+}
+
+p[class="p1"] {
+    color:rgb(225, 236, 12);
+}
+
+p[class~="p1"] {
+    color:rgb(236, 12, 12);
+}
+
+p[class|="p1"] {
+    color:rgb(229, 13, 197);
+} */
+
+/* article p:first-child {
+    font-size: 2.5em;
+    font-weight: bold;
+} */
+
+/* article :first-child {
+    font-size: 2.5em;
+    font-weight: bold;
+    color:dodgerblue;
+}
+
+article :only-child {
+    background-color: aquamarine;
+}
+
+article :invalid {
+    text-decoration: underline;
+}
+
+p:hover{
+    background-color: pink;
+}
+
+article::first-line {
+    font-size: 2em;
+}
+
+article :first-child::first-line {
+    font-weight:bold;
+    background-color: brown;
+}
+
+.box::after {
+    content: " ➥ hello this is me"
+}   
+  
+.box::before {
+    content:"helloo";
+    display: block;
+    /* width:100px; */
+    /* height:100px; */
+  /* background: url(../images/car1.jpg);
+    border: 2px solid black; */
+p::before{
+    content: "msnish";
+    display: block;
+    color: red;
+    background: url(../images/car2.jpg);
+}
